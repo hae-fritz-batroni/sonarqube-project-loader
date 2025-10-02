@@ -1,0 +1,57 @@
+=== Sonar Repo Onboarder Run ===
+Date: 2025-10-02
+Server: http://10.58.1.44:9000
+
+[INFO] Processing pl-nldms-main (NLD)
+[OK] Project NLD_pl-nldms-main created successfully.
+Cloning into '/tmp/pl-nldms-main'...
+remote: Enumerating objects: 1298, done.
+remote: Counting objects: 100% (1298/1298), done.
+remote: Compressing objects: 100% (837/837), done.
+Receiving objects: 100% (1298/1298), 2.34 MiB | 4.56 MiB/s, done.
+Resolving deltas: 100% (463/463), done.
+[INFO] Detected Maven project
+[OK] Scan completed for NLD_pl-nldms-main
+
+---
+
+[INFO] Processing tegm (TEG)
+[OK] Project TEG_tegm already exists.
+Cloning into '/tmp/tegm'...
+remote: Enumerating objects: 876, done.
+remote: Counting objects: 100% (876/876), done.
+Receiving objects: 100% (876/876), 1.92 MiB | 3.01 MiB/s, done.
+Resolving deltas: 100% (290/290), done.
+[INFO] Detected .NET project
+[OK] Scan completed for TEG_tegm
+
+---
+
+[INFO] Processing lambda (CLD)
+[OK] Project CLD_lambda created successfully.
+Cloning into '/tmp/lambda'...
+remote: Enumerating objects: 432, done.
+Receiving objects: 100% (432/432), 785 KiB | 2.34 MiB/s, done.
+[INFO] Detected Go project
+[OK] Scan completed for CLD_lambda
+
+---
+
+[INFO] Processing hcomm-core (HCM)
+[OK] Project HCM_hcomm-core created successfully.
+Cloning into '/tmp/hcomm-core'...
+remote: Enumerating objects: 654, done.
+Receiving objects: 100% (654/654), 1.12 MiB | 2.10 MiB/s, done.
+Resolving deltas: 100% (240/240), done.
+[INFO] No build files detected. Falling back to sonar-scanner.
+[ERROR] Failed processing hcomm-core: [Errno 2] No such file or directory: 'sonar-scanner'
+
+---
+
+=== Summary ===
+Projects created: 3
+Projects already existed: 1
+Repos scanned successfully: 3
+Failures: 1
+
+[INFO] All repos processed.
